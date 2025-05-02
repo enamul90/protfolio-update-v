@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+body {
+  color: white;
+  background: #34353A;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.HeroBG{
+  background: linear-gradient(90deg, #34353A 0.22%, #49443F 99.82%);
+}
+
+.companyBG{
+  background: #3D3E42;
+}
+.background{
+  background-color: #FBC76A;
+}
+.companyText{
+  color: #FBC76A;
+}
+.boxShadow{
+  box-shadow: rgba(251, 199, 106, 0.18) 1px 1px 20px;
+}
+.cardShadow:hover{
+  box-shadow: rgba(251, 199, 106, 0.73) 1px 1px 20px;
+}
+.borderColor{
+  border-color: rgb(251, 199, 106);
+}
+
+.summary-box{
+  background-image: url("@/../../../public/images/Summary-Bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
