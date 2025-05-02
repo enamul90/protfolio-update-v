@@ -1,12 +1,12 @@
 "use client"
-import React from 'react';
+import {useState} from "react";
 import {MdOutgoingMail} from "react-icons/md";
 import {FaTelegramPlane, FaWhatsapp} from "react-icons/fa";
 import {PiSkypeLogoBold} from "react-icons/pi";
 import Link from "next/link";
 
 const Profile = () => {
-    const [active, setActive] = React.useState("code");
+    const [active, setActive] = useState("code");
 
     const DesignSkills = [
         {
@@ -207,8 +207,8 @@ const Profile = () => {
 
 
     return (
-        <div className="grid grid-cols-5  lg:grid-cols-9  relative z-10 max-w-[1400px] rounded-2xl mx-auto
-        lg:p-6 p-4   companyBG border borderColor mt-[-100px] gap-x-20 gap-y-10
+        <div className="grid grid-cols-5  lg:grid-cols-9  relative  max-w-[1400px] rounded-2xl mx-auto
+        lg:p-6 p-4   companyBG border borderColor mt-[-100px] gap-x-20 gap-y-10 z-20
         ">
             <div className="col-span-5 lg:col-span-4 ">
                 <PersonalDetails/>

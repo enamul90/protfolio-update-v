@@ -8,7 +8,7 @@ const HeroComponent = () => {
 
     const HeroBG = () => {
         return (
-            <div className="h-full w-full absolute top-0 left-0 HeroBG">
+            <div className="h-full w-full absolute top-0 left-0 HeroBG z-10">
                 <div className="h-[150px] w-[150px] background rounded-full blur-[150px]"></div>
                 <div className="h-[150px]  w-[150px] background rounded-full blur-[150px] absolute bottom-[-100px] right-0"></div>
                 <Image
