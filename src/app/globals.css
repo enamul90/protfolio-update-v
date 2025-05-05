@@ -46,3 +46,29 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+
+/*Hero animation*/
+
+.typing-animation {
+  color: #ffcf55; /* Text color matching cursor */
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0.1em 0.2em; /* Padding for background fit */
+  border-right: 0.15em solid #ffcf55; /* Blinking cursor */
+  animation:
+          typing 3.5s steps(18, end) infinite, /* 18 steps for non-space characters */
+          blink 0.75s step-end infinite; /* Blinking cursor */
+}
+
+@keyframes typing {
+  0% { width: 0; }
+  50% { width: 30%; } /* Fully typed */
+  100% { width: 0; } /* Erased */
+}
+
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: #ffcf55; } /* Match cursor color */
+}

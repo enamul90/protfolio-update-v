@@ -26,13 +26,18 @@ const HeroComponent = () => {
     const HeroText = () => {
         return (
             <>
-                <h3 className="text-lg font-normal companyText">Looking for a Javascript Developer</h3>
+                <h3 className="text-lg font-normal text-gray-800 companyText flex">
+                    Are You Looking
+                    <span className="typing-animation ms-1">Javascript Developer</span>
+                </h3>
+  
                 <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold companyText mt-2">
                     Here I&apos;m Enamul Hossen
                 </h1>
                 <p className="text-white text-sm lg:text-base mt-2">
                     I specialize in JavaScript development, creating dynamic web
-                    applications using React.js and Node.js. Proficient in REST APIs, CRUD operations, and UI/UX design, I deliver efficient, scalable,
+                    applications using React.js and Node.js. Proficient in REST APIs, CRUD operations, and UI/UX design,
+                    I deliver efficient, scalable,
                     and user-friendly solutions.
                 </p>
 
@@ -51,21 +56,21 @@ const HeroComponent = () => {
                         <button
                             className="companyText px-5 py-3 text-lg lg:text-2xl rounded-lg boxShadow companyBG hover:scale-110 transition-transform duration-300"
                         >
-                            <FaGithub />
+                            <FaGithub/>
                         </button>
                     </Link>
                     <Link href="https://www.behance.net/mdenamulhossen90" target='_blank'>
                         <button
                             className="companyText px-5 py-3 text-lg lg:text-2xl rounded-lg boxShadow companyBG hover:scale-110 transition-transform duration-300"
                         >
-                            <FaBehance />
+                            <FaBehance/>
                         </button>
                     </Link>
                     <Link href="https://www.linkedin.com/in/md-enamul-hossen-64ab24296/" target='_blank'>
                         <button
                             className="companyText px-5 py-3 text-lg lg:text-2xl rounded-lg boxShadow companyBG hover:scale-110 transition-transform duration-300"
                         >
-                            <FaLinkedinIn />
+                            <FaLinkedinIn/>
                         </button>
                     </Link>
                 </div>
