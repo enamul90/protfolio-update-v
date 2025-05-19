@@ -45,7 +45,7 @@ const Summary = () => {
                 data.map((item, index) => {
                   return (
                     <div key={index} ref={ref}>
-                      <h1 className="text-5xl font-semibold text-center lg:text-center">
+                      <h1 className="text-6xl font-semibold text-center lg:text-center">
                         {
                           inView ? (
                             <CountUp key={countKey} end={item.number} duration={2} />
@@ -54,7 +54,7 @@ const Summary = () => {
                           )
                         }
                       </h1>
-                      <p className="text-base mt-1 opacity-80 font-normal text-center lg:text-start">
+                      <p className="text-lg mt-1 opacity-80 font-normal text-center lg:text-start">
                         {item.title}
                       </p>
                     </div>

@@ -42,33 +42,35 @@ const HeroComponent = () => {
                 </p>
 
                 <div className="mt-6 flex items-center gap-4 lg:gap-5">
-                    <Link
-                        href="/"
-                        target='_blank'
+                    <a
+                      href="/files/cvMdEnamulHossen.pdf" 
+                      download
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                        <button
-                            className="companyText px-5 py-2 border text-base lg:text-xl rounded-lg borderColor hover:scale-110 transition-transform duration-300"
-                        >
-                            Hire Me
-                        </button>
-                    </Link>
+                      <button
+                        className="companyText px-5 py-2 border text-base lg:text-xl rounded-lg borderColor hover:scale-110 transition-transform duration-300 cursor-pointer"
+                      >
+                        Resume
+                      </button>
+                    </a>
                     <Link href="https://github.com/enamul90" target='_blank'>
                         <button
-                            className="companyText px-5 py-3 text-lg lg:text-2xl rounded-lg boxShadow companyBG hover:scale-110 transition-transform duration-300"
+                            className="companyText px-5 py-3 text-lg lg:text-2xl rounded-lg boxShadow companyBG hover:scale-110 transition-transform duration-300 cursor-pointer"
                         >
                             <FaGithub/>
                         </button>
                     </Link>
                     <Link href="https://www.behance.net/mdenamulhossen90" target='_blank'>
                         <button
-                            className="companyText px-5 py-3 text-lg lg:text-2xl rounded-lg boxShadow companyBG hover:scale-110 transition-transform duration-300"
+                            className="companyText px-5 py-3 text-lg lg:text-2xl rounded-lg boxShadow companyBG hover:scale-110 transition-transform duration-300 cursor-pointer"
                         >
                             <FaBehance/>
                         </button>
                     </Link>
                     <Link href="https://www.linkedin.com/in/md-enamul-hossen-64ab24296/" target='_blank'>
                         <button
-                            className="companyText px-5 py-3 text-lg lg:text-2xl rounded-lg boxShadow companyBG hover:scale-110 transition-transform duration-300"
+                            className="companyText px-5 py-3 text-lg lg:text-2xl rounded-lg boxShadow companyBG hover:scale-110 transition-transform duration-300 cursor-pointer"
                         >
                             <FaLinkedinIn/>
                         </button>
