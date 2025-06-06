@@ -148,8 +148,8 @@ const Profile = () => {
                                 setActive("code")
                             }
                             }
-                            className={active === "code" ? "px-3 py-2 background rounded-md lg:text-base text-sm text-neutral-800 hover:scale-105 transition-transform duration-300" :
-                                "hover:scale-105 transition-transform px-3 py-2 companyBG companyText rounded-md text-base boxShadow duration-300 "}
+                            className={active === "code" ? "px-3 py-2 background rounded-md lg:text-base text-sm text-neutral-800 hover:scale-105 transition-transform duration-300 cursor-pointer" :
+                                "hover:scale-105 transition-transform px-3 py-2 companyBG companyText rounded-md text-base boxShadow duration-300 cursor-pointer "}
                         >
                             Code Skills
                         </button>
@@ -158,8 +158,8 @@ const Profile = () => {
                                 setActive("design")
                             }
                             }
-                            className={active === "design" ? "hover:scale-105 transition-transform px-3 py-2 background rounded-md lg:text-base text-sm text-neutral-800 duration-300" :
-                                "hover:scale-105 transition-transform px-3 py-2 companyBG companyText rounded-md text-base boxShadow duration-300 "}
+                            className={active === "design" ? "hover:scale-105 transition-transform px-3 py-2 background rounded-md lg:text-base text-sm text-neutral-800 duration-300 cursor-pointer " :
+                                "hover:scale-105 transition-transform px-3 py-2 companyBG companyText rounded-md text-base boxShadow duration-300 cursor-pointer"}
 
                         >
                             Design Skills
