@@ -1,13 +1,9 @@
 "use client";
-import React from "react";
-import {IoIosArrowBack, IoIosArrowForward} from "react-icons/io";
+import React from 'react';
+import ProjectList from "@/component/ProjectList";
+import { useState } from "react";
 
-import ProjectList from "./ProjectList"
-
-const ProjectComponent = () => {
-
-
-
+const PortfolioComponent = () => {
     const ProjectData = [
         {
             "project_name": "Social Media Project",
@@ -54,40 +50,54 @@ const ProjectComponent = () => {
     ]
 
 
-    const SectionTittle = ()=>{
+    const PortfolioTittle = () => {
+        const [activeTab, setActiveTab] = useState("Website");
+
+        const tabs = ["Website", "App", "Template", "Backend"];
+
         return (
-            <div className="flex flex-col md:flex-row  justify-between items-end  mt-[100px] gap-y-3 px-3 mb-[30px] ">
+            <div className="flex flex-col md:flex-row justify-between items-end mt-[100px] gap-y-3 px-3 mb-[30px]">
+
+                {/* Left Title Block */}
                 <div className="me-auto">
                     <h5 className="text-base lg:text-lg companyText font-medium flex gap-2 items-center">
                         <span className="block w-[15px] border borderColor"></span>
                         PROJECTS
                     </h5>
-                    <h2 className="text-xl lg:text-2xl text-white font-medium ">RECENT COMPLETED PROJECT</h2>
+                    <h2 className="text-xl lg:text-2xl text-white font-medium uppercase">
+                        Already Completed Work
+                    </h2>
                 </div>
 
-                <div className="flex justify-end items-center gap-3 border-2 borderColor h-6 rounded-full"></div>
+                {/* Nav-style Buttons */}
+                <div className="flex flex-wrap md:justify-end items-center gap-3">
+                    {tabs.map((tab) => (
+                        <button
+                            key={tab}
+                            onClick={() => setActiveTab(tab)}
+                            className={`px-4 py-2 rounded-full text-sm font-medium transition cursor-pointer 
+              ${
+                                activeTab === tab
+                                    ? "bg-[#FBC76A] text-black shadow-md"
+                                    : "bg-transparent border border-[#FBC76A] text-white hover:bg-[#FBC76A] hover:text-black"
+                            }`}
+                        >
+                            {tab}
+                        </button>
+                    ))}
+                </div>
             </div>
-        )
-    }
-
-
-    const BackgroundEffect = () => {
-        return (
-            <div className="h-[200px] w-full bg-[#FBC76A] absolute mt-[-150px] left-0 blur-[100px] opacity-35 z-[-1]"></div>
-        )
-    }
-
+        );
+    };
 
     return (
         <div className="max-w-[1400px] mx-auto">
-            <SectionTittle />
-            <div className= "grid grid-cols-4 gap-5 px-3 z-20">
-                <ProjectList data={ProjectData} />
+            <PortfolioTittle/>
+            <div className="grid grid-cols-4 gap-5 px-3 z-20">
+                <ProjectList data={ProjectData}/>
             </div>
-
-            <BackgroundEffect />
         </div>
     );
 };
 
-export default ProjectComponent;
+export default PortfolioComponent;
