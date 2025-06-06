@@ -2,22 +2,24 @@ import React from 'react';
 import Image from 'next/image';
 
 const PageHeader = () => {
-    return (
-        <header className="flex justify-center p-5 bg-gray-200">
-      <div className="border-8 border-black shadow-lg bg-gradient-to-br from-white/10 to-white/30 p-6">
+  return (
+    <>
+      <div className="shadow-lg h-[300px] mt-[76px] bg-amber-50 relative overflow-hidden">
         <Image
           src="/images/portfolio-header.jpg"
           alt="Portfolio Header"
-          width={1200}
-          height={300}
-          className="rounded-md"
+          fill
+          className="object-cover object-center h-full w-full rounded-md"
         />
-        <div className="text-center mt-4 text-white font-bold text-2xl bg-black bg-opacity-70 py-2">
-          My Portfolio
+
+        <div className="absolute inset-0 bg-[#FBC76A] opacity-30 rounded-md"></div>
+        <div className="absolute inset-0 rounded-md flex items-center justify-center">
+            <h1 className="text-3xl font-bold uppercase ">portfolio</h1>
         </div>
+
       </div>
-    </header>
-    );
+    </>
+  );
 };
 
 export default PageHeader;

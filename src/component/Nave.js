@@ -36,7 +36,7 @@ const Nave = () => {
             </Link>
           </li>
           <li>
-            <Link href="/for-sell" className={`cursor-pointer hover:text-gray-300 transition ${isActive('/portfolio')}`}>
+            <Link href="/for-sell" className={`cursor-pointer hover:text-gray-300 transition ${isActive('/for-sell')}`}>
               For sell
             </Link>
           </li>

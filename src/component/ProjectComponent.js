@@ -1,23 +1,12 @@
 "use client";
 import React from "react";
 import {IoIosArrowBack, IoIosArrowForward} from "react-icons/io";
-import Link from 'next/link';
-import Image from "next/image";
-import { useRef } from "react";
 
+import ProjectList from "./ProjectList"
 
 const ProjectComponent = () => {
 
-    const scrollRef = useRef(null);
 
-    const scroll = (direction) => {
-        if (direction === "left") {
-            scrollRef.current.scrollBy({ left: -200, behavior: "smooth" });
-        } else {
-            scrollRef.current.scrollBy({ left: 200, behavior: "smooth" });
-        }
-
-    };
 
     const ProjectData = [
         {
@@ -55,7 +44,7 @@ const ProjectComponent = () => {
 
     const SectionTittle = ()=>{
         return (
-            <div className="flex flex-col md:flex-row  justify-between items-end  mt-[100px] gap-y-3 px-3 ">
+            <div className="flex flex-col md:flex-row  justify-between items-end  mt-[100px] gap-y-3 px-3 mb-[30px] ">
                 <div className="me-auto">
                     <h5 className="text-base companyText font-medium flex gap-2 items-center">
                         <span className="block w-[15px] border borderColor"></span>
@@ -80,43 +69,7 @@ const ProjectComponent = () => {
         )
     }
 
-    const ProjectList = ({data}) => {
-        return (
-            <div
-                ref={scrollRef}
-                className="scrollbar-hide relative z-20 mt-[30px] w-full h-fit flex flex-row gap-6 overflow-x-auto scrollbar "
-            >
-                {
-                    data.map((item, index) => {
-                        return (
-                            <div key={index} className="col-span-1 w-[300px] flex-shrink-0 ">
-                                <div className="h-[360px]  rounded-lg overflow-hidden  ">
-                                    <Image
-                                        src={item.screenshot} alt="project image"
-                                        className="w-full h-full"
-                                        width={100}
-                                        height={100}
-                                        quality={100}
-                                    />
-                                </div>
-
-                                <Link href={item.project_url} target="_blank">
-                                    <h5
-                                        className="px-4 py-3 relative z-20 bg-[#3D3E42]  font-medium text-lg mt-[-16%] w-[90%]
-                                    border-s-8 border-[#FBC76A] cursor-pointer rounded-e-lg
-
-                                    ">
-                                        {item.project_name}
-                                    </h5>
-                                </Link>
-                            </div>
-                        )
-                    })
-                }
-            </div>
-        )
-    }
-
+    
     const BackgroundEffect = () => {
         return (
             <div className="h-[200px] w-full bg-[#FBC76A] absolute mt-[-150px] left-0 blur-[100px] opacity-35"></div>
@@ -127,7 +80,10 @@ const ProjectComponent = () => {
     return (
         <div className="max-w-[1400px] mx-auto">
             <SectionTittle />
-            <ProjectList data={ProjectData} />
+            <div className= "grid grid-cols-4 gap-5 px-3">
+                <ProjectList data={ProjectData} />
+            </div>
+            
             <BackgroundEffect />
         </div>
     );
