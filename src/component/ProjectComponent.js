@@ -5,8 +5,6 @@ import ProjectList from "./ProjectList"
 
 const ProjectComponent = () => {
 
-
-
     const ProjectData = [
         {
             "project_name": "Patient Management  ",
