@@ -10,7 +10,7 @@ const Page = () => {
     return (
         <div className="overflow-hidden ">
             <Nave />
-            <PageHeader tittle="portfolio" bg="/images/portfolio-header.jpg" />
+            <PageHeader tittle="portfolio" bg="/images/portfolio-header.webp" />
             <PortfolioComponent />
 
             < Footer />

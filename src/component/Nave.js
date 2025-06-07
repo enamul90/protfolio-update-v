@@ -45,11 +45,6 @@ const Nave = () => {
               Contact
             </Link>
           </li>
-          <li>
-            <Link href="/profile" className={`cursor-pointer hover:text-gray-300 transition ${isActive('/profile')}`}>
-              Profile
-            </Link>
-          </li>
         </ul>
 
         {/* Hamburger Icon for Mobile */}
@@ -78,9 +73,7 @@ const Nave = () => {
             <li className={`cursor-pointer hover:text-gray-300 transition w-full text-center py-1 ${isActive('/contact')}`}>
               <Link href="/contact">Contact</Link>
             </li>
-            <li className={`cursor-pointer hover:text-gray-300 transition w-full text-center py-1 ${isActive('/profile')}`}>
-              <Link href="/profile">Profile</Link>
-            </li>
+
           </ul>
         </div>
       </nav>
