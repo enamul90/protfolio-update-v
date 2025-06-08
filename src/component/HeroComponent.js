@@ -13,7 +13,7 @@ const HeroComponent = () => {
                 <div className="h-[150px]  w-[150px] background rounded-full blur-[150px] absolute bottom-[-100px] right-0"></div>
                 <Image
                     src="/images/BgPattarn.png"
-                    alt="Hero"
+                    alt="Hero banner"
                     className="absolute top-0 left-0 w-full h-full z-50"
                     height={100}
                     width={100}
@@ -30,9 +30,9 @@ const HeroComponent = () => {
                     Are You Looking
                     <span className="typing-animation ms-1">Javascript Developer</span>
                 </h3>
-  
+
                 <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold companyText mt-2">
-                    Here I&apos;m Enamul Hossen
+                    Here Im Enamul Hossen
                 </h1>
                 <p className="text-white text-sm lg:text-base mt-2">
                     I specialize in JavaScript development, creating dynamic web
@@ -43,7 +43,7 @@ const HeroComponent = () => {
 
                 <div className="mt-6 flex items-center gap-4 lg:gap-5">
                     <a
-                      href="/files/cvMdEnamulHossen.pdf" 
+                      href="/files/cvMdEnamulHossen.pdf"
                       download
                       target="_blank"
                       rel="noopener noreferrer"
@@ -84,7 +84,7 @@ const HeroComponent = () => {
         return (
             <div className="flex items-center justify-center h-full p-2 pt-[100px] animate-fade-in">
                 <Image
-                    src="/images/myphoto.png"
+                    src="/images/myphoto.webp"
                     quality={100}
                     height={100}
                     width={100}

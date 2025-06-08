@@ -4,7 +4,7 @@ import ProjectList from "@/component/ProjectList";
 import { useState } from "react";
 
 
-import {WebProject, AppProject, TemplateProject, BackendProject} from "@/content/data"
+import {WebProject, AppProject, TemplateProject, BackendProject} from "@/content/Portfolio"
 
 const PortfolioComponent = () => {
 

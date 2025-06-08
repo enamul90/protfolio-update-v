@@ -40,7 +40,7 @@ const ContactFrom = () => {
 
     return (
         <>
-            <div className="bg-white p-8 rounded-lg w-full border companyBG ">
+            <div className="bg-white p-6 lg:p-8 rounded-lg w-full border companyBG ">
                 <div className="space-y-4">
                     <div className='grid  lg:grid-cols-2 gap-4'>
                         <div>

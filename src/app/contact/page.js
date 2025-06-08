@@ -10,15 +10,15 @@ const Page = () => {
     return (
         <div className="overflow-hidden ">
             <Nave/>
-            <PageHeader tittle="Contract Form" bg="/images/portfolio-header.jpg"/>
+            <PageHeader tittle="Contract Form" bg="/images/Contract-from.webp"/>
 
             <div className='companyBG py-2 lg:py-10'>
                 <div className='lg:my-[60px] container mx-auto  lg:grid grid-cols-5 gap-5'>
-                    <div className="lg:col-span-2">
+                    <div className="lg:col-span-2 py-4">
                         <ContactMap/>
                     </div>
 
-                    <div className="lg:col-span-3">
+                    <div className="lg:col-span-3 py-4">
                         <ContactFrom/>
                     </div>
                 </div>

@@ -30,7 +30,7 @@ body {
 }
 
 .summary-box{
-  background-image: url("@/../../../public/images/Summary-Bg.png");
+  background-image: url("@/../../../public/images/Summary-Bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

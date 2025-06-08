@@ -70,6 +70,9 @@ const Nave = () => {
             <li className={`cursor-pointer hover:text-gray-300 transition w-full text-center py-1 ${isActive('/portfolio')}`}>
               <Link href="/portfolio">Portfolio</Link>
             </li>
+            <li className={`cursor-pointer hover:text-gray-300 transition w-full text-center py-1 ${isActive('/for-sell')}`}>
+              <Link href="/for-sell">For sell</Link>
+            </li>
             <li className={`cursor-pointer hover:text-gray-300 transition w-full text-center py-1 ${isActive('/contact')}`}>
               <Link href="/contact">Contact</Link>
             </li>

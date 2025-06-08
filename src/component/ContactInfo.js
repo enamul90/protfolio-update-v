@@ -5,8 +5,8 @@ import { IoCall } from "react-icons/io5";
 
 const ContactInfo = () => {
     return (
-        <div className="my-12">
-            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+        <>
+            <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4 py-10">
                 {/* Email */}
                 <div className="text-center">
                     <div className="mx-auto w-12 h-12 bg-[#E6E8F9] rounded-full flex items-center justify-center">
@@ -35,7 +35,7 @@ const ContactInfo = () => {
                     <p className="mt-1 companyText font-medium">+880 1714-734227, 01337364443 </p>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
