@@ -8,7 +8,7 @@ const ProjectList = ({data}) => {
     return (
         <>
             {
-                data.map((item, index) => {
+                data?.map((item, index) => {
                     return (
 
                         <div key={index} className="col-span-1">
