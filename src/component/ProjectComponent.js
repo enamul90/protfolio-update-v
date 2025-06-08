@@ -18,7 +18,7 @@ const ProjectComponent = () => {
                     <h2 className="text-xl lg:text-2xl text-white font-medium ">RECENT COMPLETED PROJECT</h2>
                 </div>
 
-                <div className="flex justify-end items-center gap-3 border-2 borderColor h-6 rounded-full hidden  md:block"></div>
+                <div className="flex justify-end items-center gap-3 border-2 borderColor h-6 rounded-full  md:block"></div>
             </div>
         )
     }
