@@ -12,7 +12,7 @@ const ProjectList = ({data}) => {
                     return (
 
                         <div key={index} className="col-span-1">
-                            <div className="relative h-[300px] rounded-lg overflow-hidden cursor-pointer group">
+                            <div className="relative h-[270px] rounded-lg overflow-hidden cursor-pointer group">
                                 <Image
                                     src={item.screenshot}
                                     alt="project image"

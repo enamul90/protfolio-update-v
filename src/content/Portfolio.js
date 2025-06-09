@@ -28,11 +28,11 @@ export const WebProject = [
         "screenshot": "/images/apparel-full.webp"
     },
     {
-        "project_name": "Order Management",
-        "project_type":"Full Stack Development",
+        "project_name": "Freelancing Marketplace",
+        "project_type":"UIUX Design",
         "project_url": "https://doctorproject.searchfriend.pro/",
         "project_code": "",
-        "screenshot": "/images/landing-page-full.webp"
+        "screenshot": "/images/freelancer.webp"
     },
     {
         "project_name": "App Marketing ",
