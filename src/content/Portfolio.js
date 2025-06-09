@@ -55,32 +55,32 @@ export const AppProject = [
         "screenshot": "/images/e-commerce-app.webp"
     },
     {
-        "project_name": "Social Media",
+        "project_name": "Courier Service App",
         "project_type": " UIUX Design",
         "project_url": "https://www.figma.com/proto/KSu53HtvBfgIJ2Ho3mBxAL/Ubizz---App-%2F-Web?page-id=2%3A1400&node-id=664-1373&viewport=1034%2C459%2C0.12&t=vxx9cf50RYURG3js-1&scaling=scale-down&content-scaling=fixed",
         "project_code": "",
-        "screenshot": "/images/e-commerce-app.webp"
+        "screenshot": "/images/courier-service.webp"
     },
     {
-        "project_name": "E - Commerce App ",
+        "project_name": "E - Doctor App ",
         "project_type": " UIUX Design",
         "project_url": "https://www.figma.com/proto/KSu53HtvBfgIJ2Ho3mBxAL/Ubizz---App-%2F-Web?page-id=2%3A1400&node-id=664-1373&viewport=1034%2C459%2C0.12&t=vxx9cf50RYURG3js-1&scaling=scale-down&content-scaling=fixed",
         "project_code": "",
-        "screenshot": "/images/e-commerce-app.webp"
+        "screenshot": "/images/e-doctor.webp"
     },
     {
-        "project_name": "E - Commerce App ",
+        "project_name": "Ride Share App ",
         "project_type": " UIUX Design",
         "project_url": "https://www.figma.com/proto/KSu53HtvBfgIJ2Ho3mBxAL/Ubizz---App-%2F-Web?page-id=2%3A1400&node-id=664-1373&viewport=1034%2C459%2C0.12&t=vxx9cf50RYURG3js-1&scaling=scale-down&content-scaling=fixed",
         "project_code": "",
-        "screenshot": "/images/e-commerce-app.webp"
+        "screenshot": "/images/ride-share.webp"
     },
     {
-        "project_name": "E - Commerce App ",
+        "project_name": "Social Media-app App ",
         "project_type": " UIUX Design",
         "project_url": "https://www.figma.com/proto/KSu53HtvBfgIJ2Ho3mBxAL/Ubizz---App-%2F-Web?page-id=2%3A1400&node-id=664-1373&viewport=1034%2C459%2C0.12&t=vxx9cf50RYURG3js-1&scaling=scale-down&content-scaling=fixed",
         "project_code": "",
-        "screenshot": "/images/e-commerce-app.webp"
+        "screenshot": "/images/social-media-app.webp"
     }
 ]
 
