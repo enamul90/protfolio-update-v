@@ -36,8 +36,8 @@ const Nave = () => {
             </Link>
           </li>
           <li>
-            <Link href="/for-sell" className={`cursor-pointer hover:text-gray-300 transition ${isActive('/for-sell')}`}>
-              For sell
+            <Link href="/free-tools" className={`cursor-pointer hover:text-gray-300 transition ${isActive('/free-tools')}`}>
+              Free Tools
             </Link>
           </li>
           <li>
@@ -70,8 +70,10 @@ const Nave = () => {
             <li className={`cursor-pointer hover:text-gray-300 transition w-full text-center py-1 ${isActive('/portfolio')}`}>
               <Link href="/portfolio">Portfolio</Link>
             </li>
-            <li className={`cursor-pointer hover:text-gray-300 transition w-full text-center py-1 ${isActive('/for-sell')}`}>
-              <Link href="/for-sell">For sell</Link>
+            <li className={`cursor-pointer hover:text-gray-300 transition w-full text-center py-1 ${isActive('/free-tools')}`}>
+              <Link href="/free-tools">
+                Free Tools
+              </Link>
             </li>
             <li className={`cursor-pointer hover:text-gray-300 transition w-full text-center py-1 ${isActive('/contact')}`}>
               <Link href="/contact">Contact</Link>

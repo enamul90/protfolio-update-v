@@ -86,13 +86,41 @@ export const AppProject = [
 
 export const TemplateProject = [
 
-
     {
         "project_name": "Portfolio Template ",
         "project_type": " Figma To HTML",
         "project_url": "https://enamul90.github.io/Multiple-Page-portfolio/index.html",
         "project_code": "",
         "screenshot": "/images/portfolio-project.webp"
+    },
+        {
+        "project_name": "Hospital Template",
+        "project_type": " Figma To HTML",
+        "project_url": "https://enamul90.github.io/Multiple-Page-portfolio/index.html",
+        "project_code": "",
+        "screenshot": "/images/hospital.webp"
+    },
+
+     {
+        "project_name": "Intro Card  Template",
+        "project_type": " Figma To HTML",
+        "project_url": "https://enamul90.github.io/Multiple-Page-portfolio/index.html",
+        "project_code": "",
+        "screenshot": "/images/intro.webp"
+    },
+     {
+        "project_name": "NewsPaper Template",
+        "project_type": " Figma To HTML",
+        "project_url": "https://enamul90.github.io/Multiple-Page-portfolio/index.html",
+        "project_code": "",
+        "screenshot": "/images/NewsPaper.webp"
+    },
+      {
+        "project_name": "School Template",
+        "project_type": " Figma To HTML",
+        "project_url": "https://enamul90.github.io/Multiple-Page-portfolio/index.html",
+        "project_code": "",
+        "screenshot": "/images/School.webp"
     },
 
 ]
