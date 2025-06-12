@@ -99,7 +99,7 @@ const Profile = () => {
                           target={"_blank"}
                     >
                         <button
-                            className="text-white p-2  text-xl lg:text-2xl rounded-lg boxShadow hover:scale-110 transition-transform duration-300">
+                            className="text-white p-2 cursor-pointer  text-xl lg:text-2xl rounded-lg boxShadow hover:scale-110 transition-transform duration-300">
                             <MdOutgoingMail/>
                         </button>
                     </Link>
@@ -108,7 +108,7 @@ const Profile = () => {
                           target={"_blank"}
                     >
                         <button
-                            className="text-white p-2  text-xl lg:text-2xl rounded-lg boxShadow hover:scale-110 transition-transform duration-300">
+                            className="text-white p-2 cursor-pointer  text-xl lg:text-2xl rounded-lg boxShadow hover:scale-110 transition-transform duration-300">
                             <FaWhatsapp/>
                         </button>
 
@@ -117,7 +117,7 @@ const Profile = () => {
                           target={"_blank"}
                     >
                         <button
-                            className="text-white p-2  text-xl lg:text-2xl rounded-lg boxShadow hover:scale-110 transition-transform duration-300">
+                            className="text-white p-2 cursor-pointer  text-xl lg:text-2xl rounded-lg boxShadow hover:scale-110 transition-transform duration-300">
                             <FaTelegramPlane/>
                         </button>
 
@@ -126,7 +126,7 @@ const Profile = () => {
                           target={"_blank"}
                     >
                         <button
-                            className="text-white p-2  text-xl lg:text-2xl rounded-lg boxShadow hover:scale-110 transition-transform duration-300">
+                            className="text-white p-2 cursor-pointer  text-xl lg:text-2xl rounded-lg boxShadow hover:scale-110 transition-transform duration-300">
                             <PiSkypeLogoBold/>
                         </button>
                     </Link>
