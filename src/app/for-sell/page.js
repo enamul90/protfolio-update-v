@@ -4,14 +4,12 @@ import ForSellComponent from "@/component/ForSellComponent";
 import Footer from "@/component/Footer";
 import React from "react";
 
-
 const Page = () => {
     return (
         <div className="overflow-hidden ">
             <Nave />
             <PageHeader tittle="For - Sell" bg="/images/for-sell.webp" />
-            <ForSellComponent />
-
+            <ForSellComponent/>
             < Footer />
 
         </div>

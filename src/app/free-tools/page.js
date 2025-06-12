@@ -3,6 +3,7 @@ import Nave from "@/component/Nave";
 import PageHeader from "@/component/PageHeader";
 
 import Footer from "@/component/Footer";
+import FreeTools from "@/component/FreeTools";
 
 const page = () => {
     return (
@@ -10,7 +11,7 @@ const page = () => {
             <Nave />
             <PageHeader tittle="Free Tools" bg="/images/portfolio-header.webp" />
 
-
+            <FreeTools />
 
             < Footer />
 
