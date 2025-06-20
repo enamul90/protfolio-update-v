@@ -11,7 +11,12 @@ const ForSellComponent = () => {
 
     const PortfolioTittle = () => {
 
-        const tabs = ["HTML", "BOOSTRAP", "REACT", "NEXT"];
+        const tabs = [
+            "E commerce", 
+            "BOOSTRAP", 
+            "REACT",
+             "NEXT",
+        ] ;
 
         return (
             <div className="flex flex-col md:flex-row justify-between items-end mt-[100px] gap-y-3 px-3 mb-[30px]">

@@ -21,7 +21,10 @@ const Nave = () => {
     >
       <nav role="navigation" className="flex justify-between items-center max-w-[1400px] mx-auto py-4">
         {/* Logo */}
-        <h1 className="text-2xl lg:text-3xl font-semibold">Enamul.</h1>
+        <Link href="/" >
+          <h1 className="text-2xl lg:text-3xl font-semibold">Enamul.</h1>
+        </Link>
+
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-md">
@@ -40,6 +43,11 @@ const Nave = () => {
               Free Tools
             </Link>
           </li>
+          {/* <li>
+            <Link href="/for-sell" className={`cursor-pointer hover:text-gray-300 transition ${isActive('/for-sell')}`}>
+              For Sell
+            </Link>
+          </li> */}
           <li>
             <Link href="/contact" className={`cursor-pointer hover:text-gray-300 transition ${isActive('/contact')}`}>
               Contact

@@ -7,7 +7,8 @@ import FreeTools from "@/component/FreeTools";
 
 const page = () => {
     return (
-        <div className="overflow-hidden ">
+        <div className="overflow-hidden  ">
+            
             <Nave />
             <PageHeader tittle="Free Tools" bg="/images/portfolio-header.webp" />
 
