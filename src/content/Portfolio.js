@@ -85,7 +85,7 @@ export const TemplateProject = [
         "project_type": " Figma To Next",
         "project_url": "https://denmark.enamulh.com/auto-etin",
         "project_code": "",
-        "screenshot": ""
+        "screenshot": "/images/loremHomeo.webp"
     },
     {
         "project_name": "Portfolio Template ",

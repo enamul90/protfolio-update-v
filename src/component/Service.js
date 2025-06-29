@@ -19,11 +19,6 @@ const Service = () => {
             description : "I build scalable APIs using Node.js, Express.js, and MongoDB. Experienced in RESTful development, authentication, database integration, and performance optimization.",
         },
         {
-            icon : <TbDeviceMobileCode className="text-5xl" />,
-            title : "Mobile App Developer",
-            description : "Experienced in building cross-platform apps using React Native, Redux, and APIs. Skilled in performance optimization, debugging, and deploying apps for Android and iOS.",
-        },
-        {
             icon : <RiReactjsLine className="text-5xl" />,
             title : "Figma To React",
             description : "React.js is a JavaScript library for building user interfaces. It uses a component-based architecture to create dynamic, responsive, and fast-rendering web applications.",

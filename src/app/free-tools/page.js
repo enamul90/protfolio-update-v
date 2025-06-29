@@ -10,7 +10,7 @@ const page = () => {
         <div className="overflow-hidden  ">
             
             <Nave />
-            <PageHeader tittle="Free Tools" bg="/images/portfolio-header.webp" />
+            <PageHeader tittle="Free Tools" bg="/images/free-header.jpeg" />
 
             <FreeTools />
 
